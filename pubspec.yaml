@@ -10,7 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  lite_graphql:
 
 dev_dependencies:
   recase: ^4.0.0
@@ -20,6 +19,7 @@ dev_dependencies:
   version: ^2.0.0
   ansicolor: ^2.0.1
   flutter_lints: ^1.0.0
+  lite_graphql: ^0.0.1
 
 flutter:
   fonts:
