@@ -83,8 +83,9 @@ void main(List<String> rawArgs) async {
 
   var iconData;
   // var faVersion = "latest"; // or "6.0.0"
-  var faVersion = "6.0.0"; // 6.0.0 has been released but "latest" still returns 5.15.4
-  if(args['api']) {
+  var faVersion =
+      "6.1.0"; // 6.0.0 has been released but "latest" still returns 5.15.4
+  if (args['api']) {
     String url = "https://api.fontawesome.com";
     var client = GraphQLClient(baseUrl: url);
     var query = """
